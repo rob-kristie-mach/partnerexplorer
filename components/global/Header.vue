@@ -16,6 +16,7 @@
       </div>
       <div id="navbar-collapse-with-animation" class="hs-collapse hidden overflow-hidden transition-all duration-300 basis-full grow sm:block">
         <div class="flex flex-col gap-y-4 gap-x-0 mt-5 sm:flex-row sm:items-center sm:justify-end sm:gap-y-0 sm:gap-x-7 sm:mt-0 sm:pl-7">
+          <a class="font-medium text-xs sm:py-6 dark:text-blue-500" href="#">Login</a>
           <a class="font-medium btn btn-primary-900" href="#">Join Waitlist</a>
         </div>
       </div>

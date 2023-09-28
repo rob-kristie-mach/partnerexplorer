@@ -62,7 +62,7 @@
   
         <div class="flex justify-between items-center">
           <div class="mt-3 sm:hidden">
-            <a href="/"><img width="100%" src="/images/attentity_logo_footer.svg" height="auto" alt="Attentity"></a>
+            <a href="/"><img width="100%" src="/images/partner_explorer.svg" height="auto" alt="Attentity"></a>
             <p class="mt-1 text-xs sm:text-sm text-gray-600 dark:text-gray-400">© 2022 Machintel.</p>
           </div>
   
