@@ -123,10 +123,14 @@
   </div>
 
   <div class="max-w-[85rem] px-4 sm:px-6 mx-auto py-20">
-      <div class="grid grid-cols-10 gap-4 text-center">
-          <div class="col-start-2 col-span-8"><h2 class="mb-5 text-3xl md:text-4xl font-bold font-heading tracking-px-n leading-tight">Enterprises leverage Machintel’s Intelligent Partner Explorer (IPE)</h2><p>to uncover intelligence about businesses in their ecosystem and discover new insights and strategies to spur growth.Machintel’s IPE, powered by advanced, intelligent technology, is globally recognized as the world’s most comprehensive identity graph, detailing companies and their alliances, and allowing you to find opportunities that remain invisible to others.</p></div>
-         
-          </div>
+      <div class="grid grid-cols-12 gap-4 text-center">
+          <div class="col-start-4 col-span-6"><h2 class="mb-5 text-3xl md:text-4xl font-bold font-heading tracking-px-n leading-tight">Enterprises leverage Machintel’s Intelligent Partner Explorer (IPE)</h2>
+          </div>       
+      </div>
+      <div class="grid grid-cols-12 gap-4 text-center">
+          <div class="col-start-3 col-span-8"><p>to uncover intelligence about businesses in their ecosystem and discover new insights and strategies to spur growth.Machintel’s IPE, powered by advanced, intelligent technology, is globally recognized as the world’s most comprehensive identity graph, detailing companies and their alliances, and allowing you to find opportunities that remain invisible to others.</p>
+          </div>       
+      </div>
     </div>
     <div class="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 ">
   <!-- Grid -->
