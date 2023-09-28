@@ -1,10 +1,8 @@
 <template>
-    <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
-      <div class="grid grid-cols-8 gap-4">
-    <div class="col-start-3 col-span-4">
-      <!-- End Title -->
-      <h3 class="text-center font-bold pb-5">Join Our Waitlist Today</h3>
-      <!-- Form -->
+    <div class="max-w-[75rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+<div class="grid grid-cols-2 gap-4">
+    <div v-html="data.content.value"  class="pr-10"/>
+    <div>
       <form action='https://forms.zohopublic.in/machintelsystemspvtltd/form/PartnerExplorer/formperma/VIy1Vh04wirJ5DC7U-fxWiYqffHAGiV_D_oJK8H-uTQ/htmlRecords/submit' name='form' id='form' method='POST' accept-charset='UTF-8' enctype='multipart/form-data'>
         <input type="hidden" name="zf_referrer_name" value=""><!-- To Track referrals , place the referrer name within the " " in the above hidden input field -->
 <input type="hidden" name="zf_redirect_url" value=""><!-- To redirect to a specific page after record submission , place the respective url within the " " in the above hidden input field -->
@@ -53,8 +51,8 @@
         </div>
       </form>
     </div>
-    <!-- End Col -->
-    </div>
+
+</div>
 </div>
 </template>
 

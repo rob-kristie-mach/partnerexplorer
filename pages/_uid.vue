@@ -22,6 +22,7 @@ export default {
     try {
         const response = await deliveryClient.items() // Replace with your actual Kontent item codename
             .type('component_built_page')
+            .collection('partner_explorer')
 			    .equalsFilter('elements.slug', route.params.uid)
 				    .toPromise();
 

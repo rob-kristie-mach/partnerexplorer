@@ -1,16 +1,25 @@
 <template>
-<section class="max-w-[85rem] px-4 sm:px-6 lg:px-8  mx-auto">
-  <div class="container mx-auto">
-    <div class="flex flex-wrap items-end -m-8">
-      <div class="w-full md:w-1/2 p-8">
-        <h3 class="md:text-4xl font-bold font-heading tracking-px-n leading-tight md:max-w-xl">Enterprises leverage Machintel’s Intelligent Partner Explorer (IPE)</h3> <p class="font-medium text-xl">to uncover intelligence about businesses in their ecosystem and discover new insights and strategies to spur growth.</p>
-      </div>
-      <div class="w-full md:w-1/2 p-8">
-        <p class="text-lg leading-relaxed md:max-w-lg">Machintel’s IPE, powered by advanced, intelligent technology, is globally recognized as the world’s most comprehensive identity graph, detailing companies and their alliances, and allowing you to find opportunities that remain invisible to others.</p>
-      </div>
+    <div class="w-full h-full flex py-0">
+        <div class="max-w-[75rem] px-4 sm:px-6 lg:px-8 mx-auto" >
+        <div class="my-0 mx-auto" >
+            <div class="md:grid md:grid-cols-1 md:items-center md:gap-12 xl:gap-32">
+                <div v-if="data.width.value[0].codename === 'medium'" class="lg:px-40" >
+                    <div v-if="data.alignment.value[0].codename ==='left'" v-html="data.content.value" class="text-left" />
+                    <div v-else-if="data.alignment.value[0].codename ==='center'" v-html="data.content.value" class="text-center" />
+                </div>
+                <div v-else-if="data.width.value[0].codename === 'large'" class="lg:px-20">
+                    <div v-if="data.alignment.value[0].codename ==='left'" v-html="data.content.value" class="text-left" />
+                    <div v-else-if="data.alignment.value[0].codename ==='center'" v-html="data.content.value" class="text-center" />
+                </div>
+               
+                <div v-else>
+                    <div v-if="data.alignment.value[0].codename ==='left'" v-html="data.content.value" class="text-left" />
+                    <div v-else-if="data.alignment.value[0].codename ==='center'" v-html="data.content.value" class="text-center" />
+                </div>
+            </div>
+        </div>
+        </div>  
     </div>
-  </div>
-</section>
 </template>
 
 <script>

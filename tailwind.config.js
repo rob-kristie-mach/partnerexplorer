@@ -15,10 +15,10 @@ module.exports = {
   theme: {
     colors: {
       colors: {
-        'primary': '#3B7EA1',
-        'primary-900': '#002D60',
+        'primary': '#18788e',
+        'primary-900': '#02314e',
         'accent' : '#E0BB6B',
-        'grey': '#F7F8FA',
+        'grey': '#f3f3f3',
         'white': '#ffffff',
         'font' : '#313131'
       },

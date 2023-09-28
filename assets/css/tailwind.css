@@ -9,7 +9,12 @@
       font-family: 'Poppins', sans-serif;
     }
 
-   
+    h1 {
+      @apply text-5xl; 
+      @apply mb-5;
+      @apply font-bold;
+      @apply leading-tight;
+    }
     
     h2 {
       @apply text-3xl;
@@ -29,11 +34,10 @@
     h5 {
      @apply mt-3;
      @apply mb-2;
+      @apply font-bold;
     }
     p{
-      @apply mb-3;
-      @apply text-lg;
-
+      @apply mb-3
     }
     
     .btn {
@@ -46,11 +50,11 @@
         }
     }
     .btn-primary-900 {
-        @apply bg-colors-primary-900 text-colors-white border-colors-primary-900 border-2;
-        &:hover{
-          @apply bg-colors-white text-colors-primary-900 border-colors-primary-900 border-2;
-        }
-    }
+      @apply bg-colors-primary-900 text-colors-white border-colors-primary-900;
+      &:hover{
+        @apply bg-colors-white text-colors-primary-900 border-colors-white;
+      }
+  }
     .btn-outline {
       @apply bg-colors-white text-colors-primary border-colors-primary border-2;
       
@@ -67,13 +71,8 @@
         
       }
     }
-    .btn-accent {
-      @apply bg-colors-accent text-colors-white border-colors-accent border-2;
-      
-      &:hover{
-        @apply bg-colors-white text-colors-font border-colors-accent border-2;
-        
-      }
+    ul {
+      list-style-type: square;
     }
 
     footer{
@@ -82,13 +81,13 @@
       }
     }
     .classic-hero{
-        background-color:#ececec;
         background-size:cover;
-        background-position: center center;
+        background-position: top left;
         background-repeat: no-repeat;
         @media(min-width:992px){
-            background-position: right center;
+            background-position: top center;
         }
+        
         p, h1{
             color:#fff;
         }
