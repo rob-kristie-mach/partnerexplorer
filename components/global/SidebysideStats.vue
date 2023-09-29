@@ -25,12 +25,12 @@
           </div>
         </div>
         <div class="grid grid-cols-3 gap-4 mt-10">
-          <div class="text-center"><h3 class="text-colors-primary-900">Partner Locations</h3></div>
-          <div class="text-center"><h3 class="text-colors-primary-900">Business Contacts</h3></div>
-          <div class="text-center"><h3 class="text-colors-primary-900">Location Contact Mappings</h3></div>
-          <div class="text-center"><h3 class="text-colors-primary-900">Verified Emails</h3></div>
-          <div class="text-center"><h3 class="text-colors-primary-900">Verified Phone Numbers</h3></div>
-          <div class="text-center"><h3 class="text-colors-primary-900">Omnichannel Linkages</h3></div>
+          <div class="text-center"><h3 class="text-colors-primary-900 sm:text-base md:text-xl lg:text-2xl md:font-semibold">Partner Locations</h3></div>
+          <div class="text-center"><h3 class="text-colors-primary-900 sm:text-base md:text-xl lg:text-2xl md:font-semibold">Business Contacts</h3></div>
+          <div class="text-center"><h3 class="text-colors-primary-900 sm:text-base md:text-xl lg:text-2xl md:font-semibold">Location Contact Mappings</h3></div>
+          <div class="text-center"><h3 class="text-colors-primary-900 sm:text-base md:text-xl lg:text-2xl md:font-semibold">Verified Emails</h3></div>
+          <div class="text-center"><h3 class="text-colors-primary-900 sm:text-base md:text-xl lg:text-2xl md:font-semibold">Verified Phone Numbers</h3></div>
+          <div class="text-center"><h3 class="text-colors-primary-900 sm:text-base md:text-xl lg:text-2xl md:font-semibold">Omnichannel Linkages</h3></div>
           </div>
       </div>
     </div>
