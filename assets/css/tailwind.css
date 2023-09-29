@@ -49,9 +49,9 @@
         }
     }
     .btn-primary-900 {
-      @apply bg-colors-primary-900 text-colors-white border-colors-primary-900;
+      @apply bg-colors-primary-900 text-colors-white border-colors-primary-900 border-2;
       &:hover{
-        @apply bg-colors-white text-colors-primary-900 border-colors-primary-900;
+        @apply bg-colors-white text-colors-primary-900 border-colors-primary-900 border-2;
       }
   }
     .btn-outline {

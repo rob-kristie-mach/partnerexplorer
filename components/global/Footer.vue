@@ -4,7 +4,7 @@
     <div class="grid grid-cols-1 md:grid-cols-4 lg:grid-cols-5 gap-6 mb-10">
       <div class="col-span-full hidden lg:col-span-1 lg:block">
         <a href="/"><img width="85%" src="/images/PartnerExplorerLogo.svg" height="auto" alt="Partner Explorer"></a>
-        <p class="mt-3 text-xs sm:text-sm text-gray-600 dark:text-gray-400">© 2022 Machintel.</p>
+        <p class="mt-3 text-xs sm:text-sm text-gray-600 dark:text-gray-400">© 2023 Machintel.</p>
       </div>
       <!-- End Col -->
   
