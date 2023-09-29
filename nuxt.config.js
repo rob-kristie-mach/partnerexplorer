@@ -5,7 +5,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'attentity-new',
+    title: 'Partner Explorer',
     htmlAttrs: {
       lang: 'en'
     },
