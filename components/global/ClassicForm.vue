@@ -1,7 +1,7 @@
 <template>
     <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
       <div class="grid grid-cols-8 gap-4">
-    <div class="col-start-3 col-span-4">
+    <div class="col-span-8 lg:col-start-3 lg:col-span-4">
       <!-- End Title -->
       <h3 class="text-center font-bold pb-5">Join Our Waitlist Today</h3>
       <!-- Form -->

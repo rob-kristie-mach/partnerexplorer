@@ -1,6 +1,6 @@
 <template>
     <div class="max-w-[75rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
-<div class="grid grid-cols-2 gap-4">
+<div class="grid lg:grid-cols-2 gap-4">
     <div v-html="data.content.value"  class="pr-10"/>
     <div>
       <form action='https://forms.zohopublic.in/machintelsystemspvtltd/form/PartnerExplorer/formperma/VIy1Vh04wirJ5DC7U-fxWiYqffHAGiV_D_oJK8H-uTQ/htmlRecords/submit' name='form' id='form' method='POST' accept-charset='UTF-8' enctype='multipart/form-data'>
